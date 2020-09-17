@@ -66,7 +66,7 @@
             android:layout_width="0dp" >
 
             <LinearLayout
-                android:id="@+id/ckecked"
+                android:id="@+id/bg_checked"
                 android:orientation="vertical"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
@@ -106,6 +106,7 @@
             android:layout_width="0dp" >
 
             <LinearLayout
+                android:id="@+id/bg_link"
                 android:orientation="vertical"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
@@ -143,6 +144,7 @@
             android:layout_width="0dp" >
 
             <LinearLayout
+                android:id="@+id/bg_home"
                 android:orientation="vertical"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
@@ -193,6 +195,7 @@
                 android:layout_width="0dp" >
 
                 <LinearLayout
+                    android:id="@+id/bg_film"
                     android:orientation="vertical"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
@@ -232,6 +235,7 @@
                 android:layout_width="0dp" >
 
                 <LinearLayout
+                    android:id="@+id/bg_saved"
                     android:orientation="vertical"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
@@ -269,6 +273,7 @@
                 android:layout_width="0dp" >
 
                 <LinearLayout
+                    android:id="@+id/bg_download"
                     android:orientation="vertical"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
