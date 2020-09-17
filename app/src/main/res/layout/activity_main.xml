@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="8dp"
         android:text="Discover"
         android:textColor="#FFF"
@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/illustration"
         app:layout_constraintHorizontal_bias="0.496"
@@ -40,7 +40,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:layout_height="300dp"
+        android:layout_height="350dp"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
@@ -89,7 +89,7 @@
                     android:layout_height="wrap_content"
                     android:text="New \nArrivall"
                     android:textColor="#FFF"
-                    android:textSize="18dp"
+                    android:textSize="12dp"
                     />
 
 
@@ -129,7 +129,7 @@
                     android:layout_height="wrap_content"
                     android:text="Link \nSaved"
                     android:textColor="#FFF"
-                    android:textSize="18dp"
+                    android:textSize="12dp"
                     />
 
 
@@ -167,7 +167,7 @@
                     android:layout_height="wrap_content"
                     android:text="My \nHome"
                     android:textColor="#FFF"
-                    android:textSize="18dp"
+                    android:textSize="12dp"
                     />
 
 
@@ -218,7 +218,7 @@
                         android:layout_height="wrap_content"
                         android:text="Film \nReleased"
                         android:textColor="#FFF"
-                        android:textSize="18dp"
+                        android:textSize="12dp"
                         />
 
 
@@ -258,7 +258,7 @@
                         android:layout_height="wrap_content"
                         android:text="Add \nFavorite"
                         android:textColor="#FFF"
-                        android:textSize="18dp"
+                        android:textSize="12dp"
                         />
 
 
@@ -294,9 +294,9 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="My \nDownloads"
+                        android:text="My \nDownload"
                         android:textColor="#FFF"
-                        android:textSize="18dp"
+                        android:textSize="12dp"
                         />
 
 
