@@ -76,5 +76,18 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Add Favorite Activity has been clicked", Toast.LENGTH_SHORT).show();
             }
         });
+
+        bgDownloads = (LinearLayout) findViewById(R.id.bg_download);
+        bgDownloads.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, MainActivity7.class);
+                startActivity(intent);
+
+                Toast.makeText(MainActivity.this, "My Downloads Activity has been clicked", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
     }
 }
