@@ -235,7 +235,7 @@
                 android:layout_width="0dp" >
 
                 <LinearLayout
-                    android:id="@+id/bg_saved"
+                    android:id="@+id/bg_plus"
                     android:orientation="vertical"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"

@@ -66,14 +66,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        bgChecked = (LinearLayout) findViewById(R.id.bg_checked);
-        bgChecked.setOnClickListener(new View.OnClickListener() {
+        bgAdd = (LinearLayout) findViewById(R.id.bg_plus);
+        bgAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, MainActivity6.class);
                 startActivity(intent);
 
-                Toast.makeText(MainActivity.this, "New Arrival Activity has been clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Add Favorite Activity has been clicked", Toast.LENGTH_SHORT).show();
             }
         });
     }
