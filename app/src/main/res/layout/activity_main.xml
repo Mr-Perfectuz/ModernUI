@@ -216,7 +216,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New \nArrivall"
+                        android:text="Film \nReleased"
                         android:textColor="#FFF"
                         android:textSize="18dp"
                         />
@@ -256,7 +256,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Link \nSaved"
+                        android:text="Add \nFavorite"
                         android:textColor="#FFF"
                         android:textSize="18dp"
                         />
@@ -294,7 +294,7 @@
 
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="My \nHome"
+                        android:text="My \nDownloads"
                         android:textColor="#FFF"
                         android:textSize="18dp"
                         />
