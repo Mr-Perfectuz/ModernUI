@@ -33,36 +33,36 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        bgChecked = (LinearLayout) findViewById(R.id.bg_checked);
-        bgChecked.setOnClickListener(new View.OnClickListener() {
+        bglink = (LinearLayout) findViewById(R.id.bg_link);
+        bglink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, MainActivity3.class);
                 startActivity(intent);
 
-                Toast.makeText(MainActivity.this, "New Arrival Activity has been clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Link Saved Activity has been clicked", Toast.LENGTH_SHORT).show();
             }
         });
 
-        bgChecked = (LinearLayout) findViewById(R.id.bg_checked);
-        bgChecked.setOnClickListener(new View.OnClickListener() {
+        bghome = (LinearLayout) findViewById(R.id.bg_home);
+        bghome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, MainActivity4.class);
                 startActivity(intent);
 
-                Toast.makeText(MainActivity.this, "New Arrival Activity has been clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "My Home Activity has been clicked", Toast.LENGTH_SHORT).show();
             }
         });
 
-        bgChecked = (LinearLayout) findViewById(R.id.bg_checked);
-        bgChecked.setOnClickListener(new View.OnClickListener() {
+        bgFilm = (LinearLayout) findViewById(R.id.bg_film);
+        bgFilm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, MainActivity5.class);
                 startActivity(intent);
 
-                Toast.makeText(MainActivity.this, "New Arrival Activity has been clicked", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Film Released Activity has been clicked", Toast.LENGTH_SHORT).show();
             }
         });
 
